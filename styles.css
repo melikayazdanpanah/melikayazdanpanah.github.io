@@ -89,3 +89,41 @@ text-shadow: 0 0px 16px black;
 .counter .end {
   margin-left: 85px;
 }
+
+
+.buttons {
+  text-decoration: none;
+  margin-left: -35px;
+  margin-top: 10px;
+}
+.buttons li {
+  display: inline-block;
+  margin: 0 13px 0 13px;
+}
+.buttons button {
+  border: none;
+
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  font-size: large;
+}
+.buttons button {
+  border: 3px solid #ffffff;
+  border-right-color: #8b8b87;
+  border-bottom-color: #8b8b87;
+  border-radius: 50%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.buttons button:hover {
+  border: 3px solid rgba(161, 161, 157, 0.6509803922);
+  border-right-color: rgba(0, 0, 0, 0.6431372549);
+  border-bottom-color: rgba(0, 0, 0, 0.6431372549);
+  border-radius: 50%;
+}
+
+input {
+  width: 85%;
+  cursor: pointer;
+}
