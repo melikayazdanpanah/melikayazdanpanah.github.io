@@ -68,3 +68,24 @@ text-shadow: 0 0px 16px black;
   color: #2e2e2e;
   cursor: pointer;
 }
+
+.start {
+  color: white;
+  font-weight: bolder;
+}
+
+.end {
+  color: white;
+  font-weight: bolder;
+}
+
+.counter {
+  display: inline-block;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.counter .start {
+  margin-right: 80px;
+}
+.counter .end {
+  margin-left: 85px;
+}
