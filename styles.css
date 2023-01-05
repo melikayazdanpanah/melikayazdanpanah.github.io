@@ -21,3 +21,6 @@ html {
   justify-content: center;
   align-items: center;
 }
+.bigpart:hover {
+  background: linear-gradient(0deg, rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
+}
