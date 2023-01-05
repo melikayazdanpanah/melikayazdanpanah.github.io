@@ -24,3 +24,26 @@ html {
 .bigpart:hover {
   background: linear-gradient(0deg, rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
 }
+
+
+.head {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: larger;
+  opacity: initial;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  text-shadow: 0 1px 6px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.coverimg {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.coverimg:hover {
+  box-shadow: 0 -1px 9px 0px black;
+}
