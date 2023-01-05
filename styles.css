@@ -47,3 +47,24 @@ html {
 .coverimg:hover {
   box-shadow: 0 -1px 9px 0px black;
 }
+
+.songname {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-shadow: 0 0px 12px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.singer {
+  color: #666666;
+  font-size: 18px;
+  text-align: center;
+text-shadow: 0 0px 16px black;
+  transition: 0.5s;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.singer:hover {
+  color: #2e2e2e;
+  cursor: pointer;
+}
